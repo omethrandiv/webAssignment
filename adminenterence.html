@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Technology Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img[usemap] {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 2px solid #ddd;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; }
+        h4 { color: #7f8c8d; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Faculty of Technology Navigation</h1>
+    <h2>Admin Area</h2>
+    <h4>Current location: Admin Entrance</h4>
+    
+    <img src="adminenterence.jpg" alt="gate" usemap="#image-map"> 
+
+    <map name="image-map">
+        <area target="_blank" alt="admin" title="admin" href="adminbuildind.html" coords="174,422,3562,2558" shape="rect">
+    </map>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+    
+        imageMapResize();
+    </script>
+
+</body>
+</html>

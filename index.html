@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Technology Navigation</title>
+    <style>
+        /* Image eka screen ekata fit wenna responsive kala */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <h1>Faculty of Technology Navigation</h1>
+    <h2>Mini Auditorium</h2>
+    <h2>Current location: Mini Entrance</h2>
+
+    <img src="maingate.jpeg" alt="gate" usemap="#image-map"> 
+
+    <map name="image-map">
+        <area target="_blank" alt="maingate" title="maingate" href="adminenterence.html" coords="594,166,849,356" shape="rect">
+    </map>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+        imageMapResize();
+    </script>
+
+</body>
+</html>
