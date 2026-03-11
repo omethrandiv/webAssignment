@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Technology - Admin Building</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; font-weight: normal; }
+    </style>
+</head>
+<body>
+
+    <h1>Faculty of Technology Navigation</h1>
+    <h2>Admin Building</h2>
+    <h2>Current location: Admin Main door 1</h2>
+
+    <img src="adminbuilding.jpg" alt="AdminBuilding" usemap="#image-map"> 
+
+    <map name="image-map">
+        <area target="_blank" alt="door1" title="door1" href="3doors.html" coords="926,968,2001,1858" shape="rect">
+        <area target="_blank" alt="door2" title="door2" href="4doors.html" coords="3279,1111,5364,2115" shape="rect">
+        <area target="_blank" alt="health" title="health" href="HealthCenter.html" coords="6165,1150,5466,1944" shape="rect">
+    </map>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            imageMapResize();
+        });
+    </script>
+
+</body>
+</html>
